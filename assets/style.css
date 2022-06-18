@@ -51,26 +51,29 @@ hr {
   padding: 5px;
 }
 
-@media (min-width:320px)  { 
-    .c-s{
-            font-size: 74px;
-            margin-bottom: 10px;
-    }
+.logo {
+  width: 20px;
+  height: 20px;
+}
 
-    .social-media{
-        margin-top: 20px;
-    }
+.f-logo {
+  border-radius: 8px;
+  object-fit: cover;
+}
 
+ 
+@media only screen and (max-width: 418px) {
+  .c-s {
+    font-size: 74px;
+    margin-bottom: 10px;
+  }
 
-    .logo{
-        width: 70px;
-        height: 70px;
-    }
+  .social-media {
+    margin-top: 20px;
+  }
 
-    .f-logo{
-        border-radius: 8px; object-fit: cover
-    }
- }
-@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
-@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+} 
